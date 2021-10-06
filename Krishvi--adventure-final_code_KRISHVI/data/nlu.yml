@@ -1,0 +1,103 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - i have a question
+    - i need help
+    - good morning
+    - yo
+- intent: service_transfer_funds
+  examples: |
+    - hey! i wanna transfer funds
+    - transfer funds
+    - i wanna transfer money
+    - i want to make a payment
+    - transfer some money
+    - i want to transfer funds
+    - i want to transfer some funds
+- intent: service_check_balance
+  examples: |
+    - hey! i wanna check balance
+    - check my balance
+    - hey! i wanna see my balance
+    - what is my account balance
+    - how much money is there in my account
+    - what is my remaining balance
+    - how much money do i have?
+    - tell me my balance
+    - what is my balance status?
+    - check balance
+- intent: about_user
+  examples: |
+    - I am good
+    - I am fine
+    - I am awesome
+    - fine.. what about you
+    - I dont wish to talk
+    - I am sick
+    - i am fine thank you
+- intent: bye
+  examples: |
+    - bye
+    - have a nice day
+    - thanks
+    - see you
+- intent: if_bot
+  examples: |
+    - are you a bot
+    - u r human
+    - who r u
+- intent: approve
+  examples: |
+    - [yes](approval)
+    - [no](approval)
+    - [yes](approval) proceed
+    - [yes](approval)
+- intent: asking_transfer_amount
+  examples: |
+    - [300](transfer_amount) dollars only
+    - i want to transfer [23112](transfer_amount) dollars
+    - [5000](transfer_amount) dollars
+    - transfer 10000
+- intent: asking_receiver_account_number
+  examples: |
+    - [12344568910](receiver_account_number)
+    - account number is [13123232897](receiver_account_number)
+    - receiver account number is[43648842707](receiver_account_number)
+- synonym: yes
+  examples: |
+    - I confirm
+    - yeah! proceed
+    - yup
+    - go ahead
+    - yes
+    - ok
+    - fine
+    - do it
+- synonym: no
+  examples: |
+    - nope
+    - dont do
+    - cancel the transaction
+    - did by mistake
+    - dont proceed
+    - exit
+    - cancel
+    - not at all
+- synonym: credit
+  examples: |
+    - credit card account
+    - credit account
+- synonym: transfer
+  examples: |
+    - tranfer
+    - Trasfer
+    - truffle
+    - trafer
+    - TRANSFER
+    - trransfer
+    - tranffer
+    - transferr
